@@ -1,0 +1,51 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  height:100vh;
+.face-mask{
+position: relative;
+background: yellow;
+.layer{
+  position: absolute;
+  top:0;
+  left: 0;
+ //min-height: 280px;
+ //min-width: 400px;
+ //max-width: 900px;
+ //max-height: 630px;
+ width: 100%;
+ height: 100%;
+ /* background */
+ background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* mask */
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  -webkit-mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+}
+}
+}
+.el {
+  width: 100vw;
+  height: 100vh;
+  padding: 1rem;
+  /* https://www.vectorkhazana.com/assets/images/products/Mask-2.jpg */
+  /*   https://images.unsplash.com/photo-1528287942171-fbe365d1d9ac?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&w=1200&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ */
+  background-image: url(https://images.unsplash.com/photo-1528287942171-fbe365d1d9ac?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&w=1200&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  mask-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/chris-mask.png);
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  -webkit-mask-image: url(https://smartmockups-mockups.imgix.net/apparel_smartmockups_face_mask_3_highlight.png?w=900&auto=format%2Ccompress&ixlib=js-2.3.1&s=9c3e1d8d1090d32fb6cb8a1785f89236);
+  -webkit-mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+}
